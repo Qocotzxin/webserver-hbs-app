@@ -4,6 +4,8 @@ import hbs from "hbs";
 const app = express();
 const port = process.env.PORT || 3000;
 
+console.log(`${__dirname}/views/partials`);
+
 // Sets main dir for express
 app.use(express.static(`${__dirname}/public`));
 
