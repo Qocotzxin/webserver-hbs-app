@@ -28,7 +28,7 @@ app.get("/about", (req: express.Request, res: express.Response) => {
   });
 });
 
-// Sets port for express
+// Sets port for Express
 app.listen(port, () => {
   console.log(`Listening port ${port}`);
 });
